@@ -70,6 +70,14 @@ int main()
 	for(int i=0; i<tam; i++){
 		cout << f.item[i] << endl;
 	}
+	
+	if(verificarFila(f) == true){
+		cout << "FILA CHEIA" << endl;
+	}
+	else
+	{
+		cout << "FILA VAIZA" << endl;
+	}
 /*
 	cout << "INICIO VALOR: " << f.inicio << endl;
 	cout << "TAMANHO VALOR: " << tam << endl;
