@@ -70,12 +70,20 @@ int main()
 	for(int i=0; i<tam; i++){
 		cout << f.item[i] << endl;
 	}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 4f6efeeb49082f480fb07449ffc684425dde4f87
 	if(verificarFila(f) == true){
 		cout << "FILA CHEIA" << endl;
 	}
 	else
 	{
+<<<<<<< HEAD
 		cout << "FILA VAZIA" << endl;
+=======
+		cout << "FILA VAIZA" << endl;
+>>>>>>> 4f6efeeb49082f480fb07449ffc684425dde4f87
 	}
 /*
 	cout << "INICIO VALOR: " << f.inicio << endl;
